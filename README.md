@@ -9,12 +9,12 @@ A complete role-based rating platform where Admins, Store Owners, and Normal Use
 ```
 rating-control-system/
 │
-├── backend/                          # Express + MySQL (Sequelize ORM)
+├── backend/                          # Express + MySQL
 │   ├── src/
-│   ├── scripts/                      # Here you can load your initial credentials for admin, owner, user
+│   ├── scripts/                      # Here you can create your initial credentials for admin, owner, user
 │   └── .env.template                  # Template for environment variables
 │
-└── frontend/                         # React + Material UI
+└── frontend/                         # React
     ├── src/
     └── public/
 ```
