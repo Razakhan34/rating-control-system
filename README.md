@@ -164,6 +164,50 @@ Frontend communicates with backend using:
 http://localhost:5000/api
 ```
 
+## 📸 Screenshots
+
+Below are screenshots that illustrate the Rating Control System
+
+### 📊 Admin Screenshots
+
+- **Admin Dashboard:** Summary view displaying Total Users, Total Stores, and Total Ratings with quick navigation to manage users and stores.
+
+  ![Admin Dashboard](Screenshot/Admin/admin_dashboard.png)
+
+- **Store Management:** Lists all stores with Name, Email, Address, and Rating. Admins can create, edit, or remove stores.
+
+  ![Admin Store List](Screenshot/Admin/admin_store.png)
+
+- **User Management:** Displays all users with Name, Email, Address, and Role (admin or normal). Includes filtering and search controls. Admins can create new users, store owners, and additional admins.
+
+  ![Admin Users](Screenshot/Admin/admin_user.png)
+
+- **Change Password:** Form allowing administrators to update their password after logging in.
+
+  ![Admin Change Password](Screenshot/Admin/admin_change_password.png)
+
+---
+
+## 👥 Normal User Screenshots
+
+- **Signup Page:** Signup form for new users with fields for Name, Email, Address, and Password.
+
+  ![User Signup](Screenshot/user/user_signup.png)
+
+- **Login Page:** Authentication screen for all the users to log in and access the platform.
+
+  ![User Login](Screenshot/user/user_login.png)
+
+- **Stores Dashboard (for user) :** Displays all registered stores with Name, Address, and Overall Rating. Shows the user's submitted rating (if any) and provides controls to search by Name/Address and submit or modify ratings (1–5 scale).
+
+  ![User Dashboard / Stores List](Screenshot/user/user_dashboard.png)
+
+## 🏷️ Store Owner Screenshots
+
+- **Owner Dashboard:** Displays the average rating for the store and lists users who have submitted ratings, with links to view individual rating details.
+
+  ![Owner Dashboard](Screenshot/owner/owner_dashboard.png)
+
 ## 🏁 Final Notes
 
 This project follows:
